@@ -1,0 +1,122 @@
+<!-- themes by GENTERR -->
+<!-- dibuat pada tanggal 12 Maret 2022 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>workshop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+        <nav class="nav">
+            <ul class="navigation">
+                <li>
+                    <a id=a href="#homepage" class="active">Homepage</a>    
+                </li>
+                <li>
+                    <a id=a href="#artikel">Artikel</a>    
+                </li>
+                <li>
+                    <a id=a href="#contact">Contact us</a>    
+                </li>
+            </ul>
+        </nav>
+    <header id="homepage">
+        <img src="img/wp.jfif" class="img-fluid" alt="homepage">
+        <div class="homepage">
+    
+                <div class="text-block">
+                    <h1>Hi buddy!</h1>
+                    <p>Welcome to my website</p>
+                </div>
+            
+        </div>
+    </header>
+    <main>
+        <section id="artikel">
+            <div class="container">
+                <div class="heading">
+                    <h1>Daftar Artikel</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas esse dicta optio cumque neque reiciendis error ad reprehenderit repellendus, veniam vel aliquam, architecto fugiat facilis tenetur totam, provident nesciunt expedita!
+                    </p>
+                </div>
+                
+                <div class="content">
+
+                    <!-- looping disini -->
+                    <div class="content-items">
+                        <figure>
+                            <img src="img/city.jpg" width="20%" alt="artikel" class="img-fluid">
+                        </figure>
+                        <div class="content-paragraph">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta dolore suscipit repudiandae deleniti qui labore beatae consectetur aperiam minus quasi.
+                            <div>
+                                <a class="buttom" href="./detail.html" target="_blank">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- looping disini -->
+                    <div class="content-items">
+                        <figure>
+                            <img src="img/sea.jpg" width="20%" alt="artikel" class="img-fluid">
+                        </figure>
+                        <div class="content-paragraph">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta dolore suscipit repudiandae deleniti qui labore beatae consectetur aperiam minus quasi.
+                            <div class="buttons">
+                                <a class="buttom" href="./detail.html" target="_blank">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </section>
+        <hr/>
+        <section id="contact">
+                <form action="" method="">
+                    <div style="text-align: center;">
+                        <h1>Contact us</h1>
+                    </div>
+                    <div>
+                        <div class="center">
+                            <!-- looping disini -->
+                            <div style="margin: 8px;">
+                                <label for="nama">Nama</label>
+                                <input type="text" name="nama_lengkap" id="nama">
+                            </div>
+                            <div style="margin: 8px;">
+                            <label for="">Jenis Kelamin</label>
+                                <div>
+                                    <input type="radio" name="jk" id="lk">
+                                    <label for="lk">Laki-laki</label>
+                                    <input type="radio" name="jk" id="pr">
+                                    <label for="pr">Perempuan</label>
+                                </div>
+                            </div>
+                            <div style="margin: 8px;">
+                                <label for="pesan">Pesan</label>
+                                <textarea name="pesan" id="pesan" cols="30" rows="10"></textarea>
+                            </div>
+                            <div style="margin: 8px;">
+                                <button type="submit" class="btn btn-submit">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </form>
+        </section>
+    </main>
+    <hr>
+    <footer">
+        <div style="text-align: center;">
+            &copy; Copyright 2022. All right reserved
+        </div>
+    </footer>
+</body>
+</html>
